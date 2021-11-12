@@ -808,7 +808,7 @@ input size  = C*H*W
             = 270000
 ----
 
-==== 3D UNET (kits-19)
+==== 3D UNET (KiTS 2019)
 
 [listing,indent=0]
 ----
@@ -842,4 +842,6 @@ input size  = avg(num_pairs_per_sample)*(num_numerical_inputs*sizeof(int8) + num
             = 270*(16+26*4)
             = 32400
 ----
+
+Each DLRM sample consists of up to 700 user-item pairs draw from the distribution specified in https://github.com/mlcommons/inference/blob/master/recommendation/dlrm/pytorch/tools/dist_quantile.txt[dist_quantile.txt].
 
