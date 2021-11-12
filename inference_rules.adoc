@@ -816,6 +816,8 @@ input size  = avg(C*D*H*W)
             = 32381026
 ----
 
+The inference cases for 3D UNET are specified in https://github.com/mlcommons/inference/blob/master/vision/medical_imaging/3d-unet-kits19/meta/inference_cases.json[inference_cases.json]. The average image size above is the average of the image sizes in those inference cases.
+
 ==== RNNT
 
 [listing,indent=0]
